@@ -1,0 +1,9 @@
+.venv/
+.bin/
+.secrets/
+build/
+*.rbxl.lock
+__pycache__/
+assets/audio/
+.claude/worktrees/
+src/server/Lobbies/Secret.luau

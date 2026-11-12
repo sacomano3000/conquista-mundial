@@ -1,0 +1,44 @@
+--!strict
+-- AS SUAS BANDEIRAS: estandartes criados por você. Entram na aba Bandeiras da Coleção, na caixa de
+-- bandeiras e na Loja Misteriosa, junto com os 80 que já vêm no jogo (Assets/Flags).
+--
+-- Há dois jeitos de criar uma bandeira:
+--
+--   JEITO 1, desenhada com letras (não precisa enviar nada ao Roblox):
+--     id        um nome só seu, sem espaços nem acentos (não mude depois)
+--     nome      o nome que aparece na Coleção
+--     raridade  "comum", "raro", "epico" ou "lendario"
+--     cores     as cores do desenho: uma letra para cada cor (hexadecimal RRGGBB)
+--     desenho   as linhas da bandeira, de cima para baixo, todas do mesmo tamanho. Use a proporção
+--               3 por 2 (por exemplo 12 letras por 8 linhas, ou 18 por 12; até 38 por 25). Cada letra
+--               é um quadradinho da cor que `cores` deu a ela; " " (espaço) fica transparente.
+--
+--   JEITO 2, uma imagem sua (PNG de 228 x 152 ou outra de proporção 3 por 2):
+--     envie a imagem pelo Studio (Gerenciador de recursos > Importar), copie o id e escreva
+--     imagem = "rbxassetid://1234567890"   no lugar de `cores` e `desenho`.
+--
+-- Exemplos (apague o "--" do começo das linhas para ligar):
+return {
+	-- {
+	-- 	id = "minha_cruz",
+	-- 	nome = "Cruz do Meu Reino",
+	-- 	raridade = "raro",
+	-- 	cores = { v = 0xB02026, o = 0xE2B234 },
+	-- 	desenho = {
+	-- 		"vvvvvoovvvvv",
+	-- 		"vvvvvoovvvvv",
+	-- 		"vvvvvoovvvvv",
+	-- 		"oooooooooooo",
+	-- 		"oooooooooooo",
+	-- 		"vvvvvoovvvvv",
+	-- 		"vvvvvoovvvvv",
+	-- 		"vvvvvoovvvvv",
+	-- 	},
+	-- },
+	-- {
+	-- 	id = "meu_brasao",
+	-- 	nome = "Brasão da Guilda",
+	-- 	raridade = "lendario",
+	-- 	imagem = "rbxassetid://1234567890",
+	-- },
+}

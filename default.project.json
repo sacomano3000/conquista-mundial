@@ -1,0 +1,71 @@
+{
+  "name": "Conquista",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Conquista": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "ConquistaServer": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "ConquistaClient": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "Players": {
+      "$properties": {
+        "CharacterAutoLoads": false
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          1,
+          1,
+          1
+        ],
+        "OutdoorAmbient": [
+          1,
+          1,
+          1
+        ],
+        "Brightness": 0,
+        "GlobalShadows": false,
+        "EnvironmentDiffuseScale": 0,
+        "EnvironmentSpecularScale": 0,
+        "ClockTime": 12,
+        "ExposureCompensation": 0,
+        "Technology": "Compatibility"
+      },
+      "ColorGrading": {
+        "$className": "ColorGradingEffect",
+        "$properties": {
+          "TonemapperPreset": "Retro"
+        }
+      }
+    },
+    "StarterGui": {
+      "$properties": {
+        "ResetPlayerGuiOnSpawn": false,
+        "ScreenOrientation": "LandscapeSensor"
+      }
+    },
+    "Workspace": {
+      "$properties": {
+        "Gravity": 0
+      }
+    },
+    "TextChatService": {
+      "$properties": {
+        "ChatVersion": "TextChatService"
+      }
+    }
+  }
+}
